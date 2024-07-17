@@ -422,11 +422,8 @@ Nav Links
   .nav-links {
     display: flex;
     justify-content: center;
-
-    align-self: stretch;
   }
   .nav-center {
-    align-self: stretch;
     display: grid;
     grid-template-columns: auto 1fr;
   }
@@ -447,7 +444,7 @@ Nav Links
 Submenu
 =============== 
 */
-.submenu {
+/* .submenu {
   display: none;
 }
 @media screen and (min-width: 992px) {
@@ -494,4 +491,4 @@ Submenu
   .submenu-links svg {
     color: var(--grey-500);
   }
-}
+} */
