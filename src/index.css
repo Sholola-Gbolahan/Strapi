@@ -444,7 +444,7 @@ Nav Links
 Submenu
 =============== 
 */
-/* .submenu {
+.submenu {
   display: none;
 }
 @media screen and (min-width: 992px) {
@@ -464,7 +464,7 @@ Submenu
     visibility: hidden;
     opacity: 0;
     transition: transform 0.3s ease-in-out, opacity 0.2s ease-in-out;
-    z-index: -1;
+    /* z-index: -1; */
   }
   .show-submenu {
     visibility: visible;
@@ -491,4 +491,4 @@ Submenu
   .submenu-links svg {
     color: var(--grey-500);
   }
-} */
+}

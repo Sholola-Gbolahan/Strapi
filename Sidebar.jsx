@@ -6,7 +6,7 @@ import { useGlobalContext } from "./src/Context"
 
 const Sidebar = () => {
   const { closeSidebar, isSidebarOpen } = useGlobalContext()
-  console.log(isSidebarOpen)
+
   return (
     <aside className={isSidebarOpen ? "sidebar show-sidebar " : "sidebar"}>
       <div className="sidebar-container">
