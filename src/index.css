@@ -66,8 +66,8 @@ html {
 
 body {
   background: var(--backgroundColor);
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
-    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: 400;
   line-height: 1;
   color: var(--textColor);
@@ -350,10 +350,11 @@ Sidebar
   width: 100%;
   height: 100%;
   background: var(--white);
-  /* toggle */
+  /* Toggle */
   opacity: 0;
   visibility: hidden;
 }
+
 .show-sidebar {
   opacity: 1;
   visibility: visible;
@@ -380,6 +381,7 @@ Sidebar
 .sidebar article {
   margin-bottom: 2rem;
 }
+
 .sidebar h4 {
   margin-bottom: 1rem;
   color: var(--primary-700);
@@ -420,7 +422,6 @@ Nav Links
   .nav-links {
     display: flex;
     justify-content: center;
-
     align-self: stretch;
   }
   .nav-center {
@@ -437,6 +438,7 @@ Nav Links
     text-transform: capitalize;
     letter-spacing: var(--letterSpacing);
     cursor: pointer;
+    border: #0f172a solid 1px;
   }
 }
 
@@ -447,6 +449,9 @@ Submenu
 */
 .submenu {
   display: none;
+}
+nav {
+  border: solid 1px black;
 }
 @media screen and (min-width: 992px) {
   .submenu {
@@ -465,7 +470,7 @@ Submenu
     visibility: hidden;
     opacity: 0;
     transition: transform 0.3s ease-in-out, opacity 0.2s ease-in-out;
-    z-index: -1;
+    /* z-index: -1; */
   }
   .show-submenu {
     visibility: visible;

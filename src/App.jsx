@@ -1,4 +1,5 @@
 import Sidebar from "../Sidebar"
+import Submenu from "../Submenu"
 import { useGlobalContext } from "./Context"
 import Hero from "./Hero"
 import Navbar from "./Navbar"
@@ -9,6 +10,7 @@ const App = () => {
       <Navbar />
       <Hero />
       <Sidebar />
+      <Submenu />
     </div>
   )
 }
